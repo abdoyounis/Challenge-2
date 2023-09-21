@@ -1,0 +1,292 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+.page {
+  height: 150vh;
+  background-color: #ddd;
+  display: grid;
+  padding: 20px;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.osama,
+.ahmed,
+.shady,
+.mohamed,
+.Mahmoud,
+.ezz,
+.sayed,
+.ibrahim,
+.gamal,
+.eman {
+  position: relative;
+} 
+
+
+
+.page div {
+  padding: 20px;
+  border-bottom: 4px solid #ff3d00;
+  transition: 0.4s 0.2s transform;
+}
+
+.up {
+  font-size: 20px;
+}
+
+.down {
+  font-size: 15px;
+}
+
+
+.osama {
+  grid-area: 1/1/1/3;
+}
+
+.shady {
+  grid-area: 1/4/4/4;
+}
+
+.mohamed {
+  grid-area: 2/1/4/1;
+}
+
+.Mahmoud {
+  grid-area: 2/2/2/4;
+}
+
+.ezz {
+  grid-area: 3/2/3/4;
+}
+
+.eman {
+  grid-area: 4/4/4/4;
+}
+
+.Mahmoud,
+.shady,
+.ibrahim {
+  background-color: black;
+  color: white;
+}
+
+.eman,
+.ezz,
+.mohamed,
+.osama,
+.gamal,
+.sayed,
+.ahmed {
+  background-color: white;
+}
+
+.page div:hover {
+  transform: translateX(-20px);
+  transform: translateY(-10px);
+  filter: drop-shadow(0 0 10px #787878);
+}
+
+/* befor style  ios*/
+
+.ahmed::before {
+  content: "IOS Developer";
+  position: absolute;
+  top: 60px;
+  color: gray;
+}
+
+.sayed::before {
+  content: "IOS Developer";
+  position: absolute;
+  top: 60px;
+  color: gray;
+}
+
+.ibrahim::before {
+  content: "IOS Developer";
+  position: absolute;
+  top: 60px;
+  color: gray;
+}
+
+.gamal::before {
+  content: "IOS Developer";
+  position: absolute;
+  top: 60px;
+  color: gray;
+}
+
+.eman::before {
+  content: "IOS Developer";
+  position: absolute;
+  top: 60px;
+  color: gray;
+}
+
+/* befor style full-stack */
+
+.shady::before {
+  content: "Full-Stack Developer";
+  position: absolute;
+  top: 60px;
+  color: gray;
+}
+.Mahmoud::before {
+  content: "Full-Stack Developer";
+  position: absolute;
+  top: 60px;
+  color: gray;
+}
+.osama::before {
+  content: "Full-Stack Developer";
+  position: absolute;
+  top: 60px;
+  color: gray;
+}
+
+/* befor style  */
+
+.mohamed::before {
+  content: ".Net Developer";
+  position: absolute;
+  top: 60px;
+  color: gray;
+}
+
+.ezz::before {
+  content: "Front-End Developer";
+  position: absolute;
+  top: 60px;
+  color: gray;
+}
+
+/* after style  */
+
+.osama::after {
+  content: ",,";
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  font-size: 70px;
+  font-family: 'Noto Sans New Tai Lue', sans-serif;
+  color: gray;
+  bottom: 0;
+  margin-bottom: 15px;
+}
+
+.logo::after {
+  content: ",,";
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  font-size: 70px;
+  font-family: 'Noto Sans New Tai Lue', sans-serif;
+  color: gray;
+  bottom: 0;
+  margin-bottom: 15px;
+}
+/* 
+.shady::after {
+  content: ",,";
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  font-size: 70px;
+  font-family: 'Noto Sans New Tai Lue', sans-serif;
+  color: gray;
+  bottom: 0;
+  margin-bottom: 15px;
+}
+
+.mohamed::after {
+  content: ",,";
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  font-size: 70px;
+  font-family: 'Noto Sans New Tai Lue', sans-serif;
+  color: gray;
+  bottom: 0;
+  margin-bottom: 15px;
+}
+
+.Mahmoud::after {
+  content: ",,";
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  font-size: 70px;
+  font-family: 'Noto Sans New Tai Lue', sans-serif;
+  color: gray;
+  bottom: 0;
+  margin-bottom: 15px;
+}
+
+.ezz::after {
+  content: ",,";
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  font-size: 70px;
+  font-family: 'Noto Sans New Tai Lue', sans-serif;
+  color: gray;
+  bottom: 0;
+  margin-bottom: 15px;
+}
+
+.sayed::after {
+  content: ",,";
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  font-size: 70px;
+  font-family: 'Noto Sans New Tai Lue', sans-serif;
+  color: gray;
+  bottom: 0;
+  margin-bottom: 15px;
+}
+
+.ibrahim::after {
+  content: ",,";
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  font-size: 70px;
+  font-family: 'Noto Sans New Tai Lue', sans-serif;
+  color: gray;
+  bottom: 0;
+  margin-bottom: 15px;
+}
+
+.gamal::after {
+  content: ",,";
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  font-size: 70px;
+  font-family: 'Noto Sans New Tai Lue', sans-serif;
+  color: gray;
+  bottom: 0;
+  margin-bottom: 15px;
+}
+
+.eman::after {
+  content: ",,";
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  font-size: 70px;
+  font-family: 'Noto Sans New Tai Lue', sans-serif;
+  color: gray;
+  bottom: 0;
+  margin-bottom: 15px;
+} */
+
+/* end after style */
+
